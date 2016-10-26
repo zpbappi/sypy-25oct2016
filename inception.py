@@ -96,7 +96,7 @@ for item in data:
 model.fit(X, Y, batch_size=20, nb_epoch=3, verbose=1)
 
 # note, i have tried with model.fit_generator(...). however, it was throwing 
-# threading exception in my mahcine. try it in your.
+# threading exception in my mahcine. to try it in your machine,
 # comment the whole reshape training data section and uncomment the following:
 #
 # model.fit_generator(get_dataset(), samples_per_epoch=20, nb_epoch=3, verbose=1)
